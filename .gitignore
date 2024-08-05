@@ -1,0 +1,50 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables and credentials
+.env
+*.env
+
+# IDE and editor directories
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+*.json
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Twilio configuration (be cautious with sensitive info)
+# Make sure to use environment variables for sensitive information like Twilio credentials
+twilio_config.txt
